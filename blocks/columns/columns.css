@@ -1,7 +1,10 @@
 /* stylelint-disable no-descending-specificity */
 .columns > div {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 32px;
 }
 
 .columns img {
@@ -10,6 +13,9 @@
 
 .columns > div > div {
   order: 1;
+  flex: 1 1 0;
+  min-width: 0;
+  padding: 0 16px;
 }
 
 .columns > div > .columns-img-col {
@@ -231,12 +237,22 @@
   box-shadow: none !important;
   margin: 0 !important;
   padding: 0 !important;
-  gap: 0 !important; /* for grid/flex */
+  gap: 0 !important;
   grid-gap: 0 !important;
   min-width: 0;
 }
 
-/* Hide all block content but preserve structure */
 .columns > div > div > * {
   display: none !important;
+}
+
+
+/* Make the three column divs side by side */
+
+/* Responsive: stack columns vertically on small screens */
+@media (width <= 900px) {
+  .columns > div {
+    flex-direction: column;
+    gap: 24px;
+  }
 }
