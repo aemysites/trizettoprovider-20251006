@@ -31,3 +31,36 @@
     order: unset;
   }
 }
+
+
+.columns.columns7.block.columns-3-cols {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* top-aligned */
+  gap: 32px; /* Adjust gap as needed for desired spacing */
+}
+
+.columns.columns7.block.columns-3-cols > div {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+/* Heading styles */
+.columns.columns7.block.columns-3-cols h2 {
+  color: #1650B8;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Description/list styles */
+.columns.columns7.block.columns-3-cols h6, 
+.columns.columns7.block.columns-3-cols p, 
+.columns.columns7.block.columns-3-cols ul, 
+.columns.columns7.block.columns-3-cols li, 
+.columns.columns7.block.columns-3-cols a {
+  color: #6B6B6B;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
