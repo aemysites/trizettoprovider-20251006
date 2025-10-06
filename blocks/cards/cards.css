@@ -271,20 +271,17 @@
 
 
 .cards.cards11 {
-  /* Show the full-width gradient and add vertical space for cards */
   background: linear-gradient(90deg, #282F99 0%, #00B7CE 100%);
   padding: 56px 0;
 }
 
 .cards.cards11 .cards-wrapper {
-  /* Center cards and limit max width for desktop, but be fluid */
   max-width: 1320px;
   margin: 0 auto;
   padding: 0 24px;
 }
 
 .cards.cards11 ul {
-  /* Side-by-side cards using flex, horizontally centered */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -297,7 +294,6 @@
 }
 
 .cards.cards11 li {
-  /* Card sizing and appearance */
   position: relative;
   flex: 1 1 0;
   min-width: 360px;
@@ -329,12 +325,10 @@
   background-position: center;
 }
 
-/* Hide image element inside card if present */
 .cards.cards11 .cards-card-image {
   display: none;
 }
 
-/* Card content styles */
 .cards.cards11 .cards-card-body {
   display: flex;
   flex-direction: column;
@@ -347,7 +341,6 @@
   position: relative;
 }
 
-/* Card headings */
 .cards.cards11 .cards-card-body h4,
 .cards.cards11 .cards-card-body h4 a {
   color: #fff;
@@ -375,7 +368,6 @@
   text-shadow: 0 1px 6px rgb(0 0 0 / 10%);
 }
 
-/* Button styles: override base design for block context */
 .cards.cards11 .cards-card-body .button-container {
   display: flex;
   justify-content: center;
@@ -411,7 +403,6 @@
   background: #14a7aa;
 }
 
-/* Responsive adjustments */
 @media (width <= 1100px) {
   .cards.cards11 .cards-wrapper {
     max-width: 98vw;
@@ -449,5 +440,132 @@
 
   .cards.cards11 .cards-card-body {
     padding: 16px 2vw 12px;
+  }
+}
+
+
+.cards.cards16 {
+  padding: 0;
+  background: #fff;
+}
+
+.cards.cards16 ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 36px;
+  justify-items: center;
+  margin: 0;
+  padding: 32px 0;
+  list-style: none;
+}
+
+/* Card container */
+.cards.cards16 li {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background: #fff;
+  border: 8px solid #0F1C54;
+  border-radius: 16px;
+  box-shadow: 0 3px 16px rgb(15 28 84 / 10%);
+  max-width: 340px;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  transition: box-shadow 0.18s, transform 0.18s;
+}
+
+.cards.cards16 li:hover {
+  box-shadow: 0 8px 32px rgb(15 28 84 / 18%);
+  transform: translateY(-3px) scale(1.02);
+}
+
+/* Image block: edge-to-edge, only top corners rounded, no gap */
+.cards.cards16 .cards-card-image {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+.cards.cards16 .cards-card-image img {
+  display: block;
+  width: 100%;
+  height: 360px;
+  min-height: 220px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+  margin: 0;
+  box-shadow: none;
+  background: #d9dbe6; /* fallback bg */
+}
+
+/* Text bar section: flush with image, compact, colored */
+.cards.cards16 .cards-card-body {
+  width: 100%;
+  background: #0F1C54;
+  padding: 14px 12px 10px;
+  margin: 0;
+  min-height: unset;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 0 0 8px 8px;
+}
+
+.cards.cards16 .cards-card-body p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+
+.cards.cards16 .cards-card-body p:first-child {
+  color: #fff;
+  font-weight: 700;
+  font-size: 19px;
+  letter-spacing: 0.01em;
+  margin-bottom: 2px;
+}
+
+.cards.cards16 .cards-card-body p:not(:first-child) {
+  color: #A4B9EB;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+/* Responsive tweaks for compact look */
+@media (width <= 900px) {
+  .cards.cards16 ul {
+    grid-template-columns: 1fr;
+    gap: 22px;
+    padding: 20px 0;
+  }
+
+  .cards.cards16 li {
+    max-width: 96vw;
+  }
+
+  .cards.cards16 .cards-card-image img {
+    height: 200px;
+    min-height: 120px;
+  }
+
+  .cards.cards16 .cards-card-body {
+    padding: 9px 7px 7px;
+  }
+
+  .cards.cards16 .cards-card-body p:first-child {
+    font-size: 16px;
+  }
+
+  .cards.cards16 .cards-card-body p:not(:first-child) {
+    font-size: 12px;
   }
 }
