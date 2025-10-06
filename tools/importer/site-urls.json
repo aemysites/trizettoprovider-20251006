@@ -1,0 +1,63 @@
+{
+  "originUrl": "https://www.trizettoprovider.com",
+  "aborted": false,
+  "urls": [
+    {
+      "url": "https://www.trizettoprovider.com/",
+      "source": "MANUAL",
+      "targetPath": "/",
+      "id": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-are/leadership",
+      "source": "MANUAL",
+      "targetPath": "/who-we-are/leadership",
+      "id": "2751c11b708fc09ec0315e06c98777613a649d83"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-are/our-story",
+      "source": "MANUAL",
+      "targetPath": "/who-we-are/our-story",
+      "id": "12a06b00a36192dfdf759f24a50dcb90de19cd71"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-serve/billing-services",
+      "source": "MANUAL",
+      "targetPath": "/who-we-serve/billing-services",
+      "id": "7edf790d262e5620ff30c7a4c512825cf6c3e9a8"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-serve/health-systems",
+      "source": "MANUAL",
+      "targetPath": "/who-we-serve/health-systems",
+      "id": "97964df3ccee53761c35d671779b0a9cf8fdec1d"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-serve/hospitals-and-health-centers",
+      "source": "MANUAL",
+      "targetPath": "/who-we-serve/hospitals-and-health-centers",
+      "id": "a0d5c56c006d8f0e2716e5e2a7b63a23de658059"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-serve/physician-practices",
+      "source": "MANUAL",
+      "targetPath": "/who-we-serve/physician-practices",
+      "id": "bb765d13534579f86662fac867381008bf24e703"
+    }
+  ],
+  "lastCrawled": "MANUAL",
+  "crawlOptions": {
+    "timeout": 10000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": 100,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "manual",
+    "strategiesAttempted": [
+      "MANUAL"
+    ]
+  },
+  "extractionErrors": [],
+  "errorCountMessage": "none"
+}
