@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .columns > div {
   display: flex;
   flex-direction: column;
@@ -30,4 +31,152 @@
     flex: 1;
     order: unset;
   }
+}
+
+
+.columns.columns7 {
+  background: #fff;
+  color: #00079B;
+  padding: 48px 32px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+/* Responsive multi-column layout using CSS Grid for precise alignment */
+
+.columns.columns7 div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+  align-items: start;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media (width <= 900px) {
+  .columns.columns7 div {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+/* Each column: vertical stacking, left-aligned, full height */
+.columns.columns7 div div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+/* Headings: clean, compact, uniform */
+.columns.columns7 h2,
+.columns.columns7 h3,
+.columns.columns7 h4,
+.columns.columns7 h5,
+.columns.columns7 h6 {
+  color: #00079B;
+  font-weight: 700;
+  font-size: 1.25em;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+/* Group section spacing: add vertical space before additional groups in a column */
+.columns.columns7 div div h2:not(:first-child),
+.columns.columns7 div div h3:not(:first-child),
+.columns.columns7 div div h4:not(:first-child),
+.columns.columns7 div div h5:not(:first-child),
+.columns.columns7 div div h6:not(:first-child) {
+  margin-top: 28px;
+}
+
+/* List styling: no bullets, compact, clear group separation */
+.columns.columns7 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+}
+
+.columns.columns7 li {
+  font-size: 1em;
+  font-weight: 400;
+  color: #00079B;
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+
+/* Links: blue, no underline default, underline on hover */
+.columns.columns7 a {
+  color: #00079B;
+  text-decoration: none;
+  font-weight: 400;
+  transition: color 0.2s;
+}
+
+.columns.columns7 a:hover,
+.columns.columns7 a:focus {
+  text-decoration: underline;
+}
+
+/* Button: compact, blue, rounded, white text */
+.columns.columns7 a.button,
+.columns.columns7 .button {
+  background-color: #00079B;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 1em;
+  padding: 10px 22px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  box-shadow: none;
+  line-height: 1.2;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Social icons row: horizontal, compact gap, blue-tinted icons */
+.columns.columns7 .footer-social-links,
+.columns.columns7 .footer-social,
+.columns.columns7 .social-row,
+.columns.columns7 p:has(img):not(:only-child) {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.columns.columns7 .footer-social-links img,
+.columns.columns7 .footer-social img,
+.columns.columns7 .social-row img,
+.columns.columns7 p img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(11%) sepia(99%) saturate(7480%) hue-rotate(225deg) brightness(93%) contrast(101%);
+}
+
+/* Paragraphs: compact spacing for tight vertical rhythm */
+.columns.columns7 p {
+  margin: 0 0 8px;
+}
+
+/* Prevent columns from shrinking too much */
+
+/* Visually separate nested blocks (if present) */
+.columns.columns7 .block:not(:first-child),
+.columns.columns7 .columns-3-cols:not(:first-child),
+.columns.columns7 .testcolumns:not(:first-child) {
+  margin-top: 40px;
 }
