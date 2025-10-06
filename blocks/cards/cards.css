@@ -25,3 +25,132 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+
+.cards.cards1 {
+  background-color: #f7f7f7;
+  padding: 56px 0;
+}
+
+.cards.cards1 .cards-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.cards.cards1 ul {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  justify-content: center;
+  align-items: stretch;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.cards.cards1 ul li {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 14px rgb(21 58 138 / 8%);
+  padding: 36px 32px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 260px;
+  max-width: 370px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: box-shadow 0.2s;
+}
+
+.cards.cards1 ul li:hover {
+  box-shadow: 0 6px 32px rgb(21 58 138 / 11%);
+}
+
+.cards.cards1 .cards-card-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.cards.cards1 .cards-card-image img {
+  width: 140px;
+  max-width: 85%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 1.5px 7px rgb(0 0 0 / 10%);
+  background: #fff;
+  display: block;
+}
+
+.cards.cards1 .cards-card-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.cards.cards1 .cards-card-body a.button {
+  color: #00b6dd;
+  background: none;
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 0 0 3px;
+  padding: 0;
+  box-shadow: none;
+  display: inline-block;
+  line-height: 1.2;
+  max-width: 100%;
+}
+
+.cards.cards1 .cards-card-body a:not(.button),
+.cards.cards1 .cards-card-body strong {
+  color: #153a8a;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 11px;
+  padding: 0;
+  line-height: 1.2;
+  display: block;
+  text-transform: none;
+  box-shadow: none;
+}
+
+.cards.cards1 .cards-card-body p {
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.6;
+  max-width: 95%;
+  text-align: center;
+}
+
+@media (width <= 900px) {
+  .cards.cards1 ul {
+    flex-direction: column;
+    gap: 36px;
+    align-items: center;
+  }
+
+  .cards.cards1 ul li {
+    max-width: 98vw;
+    min-width: 0;
+  }
+
+  .cards.cards1 .cards-card-image img {
+    width: 60vw;
+    max-width: 180px;
+  }
+}
