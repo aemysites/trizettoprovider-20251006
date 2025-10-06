@@ -1,0 +1,56 @@
+{
+  "templates": [
+    {
+      "name": "Corporate Multi-Section Template",
+      "cluster": 1,
+      "pages": [
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/billing-services",
+          "uuid": "7edf790d262e5620ff30c7a4c512825cf6c3e9a8"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/health-systems",
+          "uuid": "97964df3ccee53761c35d671779b0a9cf8fdec1d"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/hospitals-and-health-centers",
+          "uuid": "a0d5c56c006d8f0e2716e5e2a7b63a23de658059"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/physician-practices",
+          "uuid": "bb765d13534579f86662fac867381008bf24e703"
+        }
+      ]
+    },
+    {
+      "name": "'Team Profile Page'",
+      "cluster": 2,
+      "pages": [
+        {
+          "url": "https://www.trizettoprovider.com/who-we-are/leadership",
+          "uuid": "2751c11b708fc09ec0315e06c98777613a649d83"
+        }
+      ]
+    },
+    {
+      "name": "'Timeline Page'",
+      "cluster": 3,
+      "pages": [
+        {
+          "url": "https://www.trizettoprovider.com/who-we-are/our-story",
+          "uuid": "12a06b00a36192dfdf759f24a50dcb90de19cd71"
+        }
+      ]
+    },
+    {
+      "name": "\"Business Homepage\"",
+      "cluster": 4,
+      "pages": [
+        {
+          "url": "https://www.trizettoprovider.com/",
+          "uuid": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d"
+        }
+      ]
+    }
+  ]
+}
