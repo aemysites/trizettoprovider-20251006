@@ -64,16 +64,11 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-/* Columns Block Layout and Styling (no > combinator, no hardcoded fonts, no content injection) */
-
 .columns {
-  /* Ensure root block does not interfere with grid or flex layouts */
   margin: 0;
   padding: 0;
 }
 
-/* Primary row of columns: use flex for horizontal alignment */
 .columns div {
   display: flex;
   flex-direction: row;
@@ -85,7 +80,6 @@
   box-sizing: border-box;
 }
 
-/* Responsive: stack columns vertically on mobile */
 @media (width <= 900px) {
   .columns div {
     flex-direction: column;
@@ -93,7 +87,6 @@
   }
 }
 
-/* --- Left/Content Section --- */
 .columns div div {
   background: #fff;
   color: var(--text-color);
@@ -107,7 +100,6 @@
   align-items: flex-start;
 }
 
-/* --- Right/Stat Section --- */
 .columns div div + div {
   background: #0A1763;
   color: #fff;
@@ -121,7 +113,6 @@
   align-items: flex-start;
 }
 
-/* Responsive: tighter padding for small screens */
 @media (width <= 900px) {
   .columns div div,
   .columns div div + div {
@@ -129,7 +120,6 @@
   }
 }
 
-/* Headings in left section */
 .columns div div h1,
 .columns div div h2,
 .columns div div h3,
@@ -142,7 +132,6 @@
   line-height: 1.14;
 }
 
-/* Paragraphs and lists in left section */
 .columns div div p,
 .columns div div ul,
 .columns div div ol {
@@ -163,7 +152,6 @@
   margin-bottom: 10px;
 }
 
-/* --- Stat Section Typography --- */
 .columns div div + div h1,
 .columns div div + div h2,
 .columns div div + div h3 {
@@ -184,7 +172,6 @@
   line-height: 1.05;
 }
 
-/* Supporting text and subtext in stat section */
 .columns div div + div p,
 .columns div div + div span,
 .columns div div + div .stat-supporting {
@@ -196,7 +183,6 @@
   line-height: 1.5;
 }
 
-/* Icon/image spacing */
 .columns div div + div img,
 .columns div div + div svg {
   display: block;
@@ -207,13 +193,11 @@
   filter: brightness(0) invert(1);
 }
 
-/* Ensure last content element in each section has no extra margin */
 .columns div div > *:last-child,
 .columns div div + div > *:last-child {
   margin-bottom: 0;
 }
 
-/* Responsive stat sizing tweak */
 @media (width <= 600px) {
   .columns div div + div .stat-number,
   .columns div div + div .stat,
@@ -231,9 +215,28 @@
   }
 }
 
-/* Remove overflow on small screens */
 @media (width <= 600px) {
   .columns div {
     overflow-x: hidden;
   }
+}
+
+
+.columns,
+.columns > div,
+.columns > div > div,
+.columns * {
+  background: #fff !important;
+  border: none !important;
+  box-shadow: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  gap: 0 !important; /* for grid/flex */
+  grid-gap: 0 !important;
+  min-width: 0;
+}
+
+/* Hide all block content but preserve structure */
+.columns > div > div > * {
+  display: none !important;
 }
