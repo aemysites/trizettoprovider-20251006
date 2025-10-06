@@ -154,3 +154,122 @@
     max-width: 180px;
   }
 }
+
+
+.cards.cards9 {
+  /* Center horizontally, minimize vertical gap, integrate with parent section */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0;
+  padding: 32px 0 24px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Arrange cards in a row with moderate gap, center them */
+.cards.cards9 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: auto;
+}
+
+/* Card container: vertical stack, compact width, sharp corners, no extra border */
+.cards.cards9 ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 240px;
+  min-width: 0;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Portrait image: navy border, taller aspect, no bottom border */
+.cards.cards9 ul li .cards-card-image {
+  border: 2px solid #071951;
+  border-bottom: none;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+.cards.cards9 ul li .cards-card-image img,
+.cards.cards9 ul li .cards-card-image picture {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  margin: 0;
+  padding: 0;
+  border: none;
+  object-fit: cover;
+  background: transparent;
+}
+
+/* Navy text area: compact, always below image, centered, grows for content */
+.cards.cards9 ul li .cards-card-body {
+  background: #071951;
+  color: #fff;
+  width: 100%;
+  min-height: 68px; /* compact, grows if needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 18px 10px 16px 10px;
+  box-sizing: border-box;
+  border-radius: 0;
+}
+
+/* Name line: bold, slightly larger, tight spacing below */
+.cards.cards9 ul li .cards-card-body p strong {
+  display: block;
+  font-size: 1.14em;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #fff;
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+}
+
+/* Role/titles: smaller, stacked, tight line height */
+.cards.cards9 ul li .cards-card-body p {
+  margin: 0;
+  color: #fff;
+  font-size: 0.90em;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.003em;
+}
+
+/* Responsive: stack vertically, adjust gap and card width */
+@media (max-width: 700px) {
+  .cards.cards9 ul {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+  }
+  .cards.cards9 ul li {
+    width: 98vw;
+    max-width: 310px;
+  }
+  .cards.cards9 ul li .cards-card-body {
+    min-height: 54px;
+    padding: 14px 4vw 10px 4vw;
+  }
+}
