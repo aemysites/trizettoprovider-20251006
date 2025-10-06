@@ -1,0 +1,1774 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 2,
+      "instances": [
+        {
+          "url": "https://www.trizettoprovider.com/who-we-are/our-story",
+          "urlHash": "12a06b00a36192dfdf759f24a50dcb90de19cd71",
+          "uuid": "12a06b00-00-70928af0e9d7f0ac1f13f2d60f543d2cf08783dd",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-are/our-story",
+          "urlHash": "12a06b00a36192dfdf759f24a50dcb90de19cd71",
+          "uuid": "12a06b00-01-a4e8d78da6e5b4998fbb5ce0f6afa7284e895f2e",
+          "xpath": "/html[1]/body[1]/header[1]/div[2]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-are/leadership",
+          "urlHash": "2751c11b708fc09ec0315e06c98777613a649d83",
+          "uuid": "2751c11b-00-70928af0e9d7f0ac1f13f2d60f543d2cf08783dd",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-are/leadership",
+          "urlHash": "2751c11b708fc09ec0315e06c98777613a649d83",
+          "uuid": "2751c11b-01-a4e8d78da6e5b4998fbb5ce0f6afa7284e895f2e",
+          "xpath": "/html[1]/body[1]/header[1]/div[2]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/billing-services",
+          "urlHash": "7edf790d262e5620ff30c7a4c512825cf6c3e9a8",
+          "uuid": "7edf790d-00-70928af0e9d7f0ac1f13f2d60f543d2cf08783dd",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/billing-services",
+          "urlHash": "7edf790d262e5620ff30c7a4c512825cf6c3e9a8",
+          "uuid": "7edf790d-01-a4e8d78da6e5b4998fbb5ce0f6afa7284e895f2e",
+          "xpath": "/html[1]/body[1]/header[1]/div[2]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/health-systems",
+          "urlHash": "97964df3ccee53761c35d671779b0a9cf8fdec1d",
+          "uuid": "97964df3-00-70928af0e9d7f0ac1f13f2d60f543d2cf08783dd",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/health-systems",
+          "urlHash": "97964df3ccee53761c35d671779b0a9cf8fdec1d",
+          "uuid": "97964df3-01-a4e8d78da6e5b4998fbb5ce0f6afa7284e895f2e",
+          "xpath": "/html[1]/body[1]/header[1]/div[2]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/hospitals-and-health-centers",
+          "urlHash": "a0d5c56c006d8f0e2716e5e2a7b63a23de658059",
+          "uuid": "a0d5c56c-00-70928af0e9d7f0ac1f13f2d60f543d2cf08783dd",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/hospitals-and-health-centers",
+          "urlHash": "a0d5c56c006d8f0e2716e5e2a7b63a23de658059",
+          "uuid": "a0d5c56c-01-a4e8d78da6e5b4998fbb5ce0f6afa7284e895f2e",
+          "xpath": "/html[1]/body[1]/header[1]/div[2]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/physician-practices",
+          "urlHash": "bb765d13534579f86662fac867381008bf24e703",
+          "uuid": "bb765d13-00-70928af0e9d7f0ac1f13f2d60f543d2cf08783dd",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/physician-practices",
+          "urlHash": "bb765d13534579f86662fac867381008bf24e703",
+          "uuid": "bb765d13-01-a4e8d78da6e5b4998fbb5ce0f6afa7284e895f2e",
+          "xpath": "/html[1]/body[1]/header[1]/div[2]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/",
+          "urlHash": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d",
+          "uuid": "dd6dfba1-00-70928af0e9d7f0ac1f13f2d60f543d2cf08783dd",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/",
+          "urlHash": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d",
+          "uuid": "dd6dfba1-01-a4e8d78da6e5b4998fbb5ce0f6afa7284e895f2e",
+          "xpath": "/html[1]/body[1]/header[1]/div[2]"
+        }
+      ],
+      "styles": {
+        "height": 177
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 2,
+      "instances": [
+        {
+          "url": "https://www.trizettoprovider.com/who-we-are/our-story",
+          "urlHash": "12a06b00a36192dfdf759f24a50dcb90de19cd71",
+          "uuid": "12a06b00-14-ab3e4de776b49f538ccb9d433b686862faf5a7cc",
+          "xpath": "/html[1]/body[1]/div[3]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-are/our-story",
+          "urlHash": "12a06b00a36192dfdf759f24a50dcb90de19cd71",
+          "uuid": "12a06b00-15-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-are/leadership",
+          "urlHash": "2751c11b708fc09ec0315e06c98777613a649d83",
+          "uuid": "2751c11b-11-ab3e4de776b49f538ccb9d433b686862faf5a7cc",
+          "xpath": "/html[1]/body[1]/div[3]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-are/leadership",
+          "urlHash": "2751c11b708fc09ec0315e06c98777613a649d83",
+          "uuid": "2751c11b-12-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/billing-services",
+          "urlHash": "7edf790d262e5620ff30c7a4c512825cf6c3e9a8",
+          "uuid": "7edf790d-13-ab3e4de776b49f538ccb9d433b686862faf5a7cc",
+          "xpath": "/html[1]/body[1]/div[3]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/billing-services",
+          "urlHash": "7edf790d262e5620ff30c7a4c512825cf6c3e9a8",
+          "uuid": "7edf790d-14-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/health-systems",
+          "urlHash": "97964df3ccee53761c35d671779b0a9cf8fdec1d",
+          "uuid": "97964df3-13-ab3e4de776b49f538ccb9d433b686862faf5a7cc",
+          "xpath": "/html[1]/body[1]/div[3]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/health-systems",
+          "urlHash": "97964df3ccee53761c35d671779b0a9cf8fdec1d",
+          "uuid": "97964df3-14-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/hospitals-and-health-centers",
+          "urlHash": "a0d5c56c006d8f0e2716e5e2a7b63a23de658059",
+          "uuid": "a0d5c56c-11-ab3e4de776b49f538ccb9d433b686862faf5a7cc",
+          "xpath": "/html[1]/body[1]/div[3]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/hospitals-and-health-centers",
+          "urlHash": "a0d5c56c006d8f0e2716e5e2a7b63a23de658059",
+          "uuid": "a0d5c56c-12-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/physician-practices",
+          "urlHash": "bb765d13534579f86662fac867381008bf24e703",
+          "uuid": "bb765d13-12-ab3e4de776b49f538ccb9d433b686862faf5a7cc",
+          "xpath": "/html[1]/body[1]/div[3]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/physician-practices",
+          "urlHash": "bb765d13534579f86662fac867381008bf24e703",
+          "uuid": "bb765d13-13-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/",
+          "urlHash": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d",
+          "uuid": "dd6dfba1-18-ab3e4de776b49f538ccb9d433b686862faf5a7cc",
+          "xpath": "/html[1]/body[1]/div[3]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/",
+          "urlHash": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d",
+          "uuid": "dd6dfba1-19-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        }
+      ],
+      "styles": {}
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Cards",
+      "cluster": 1,
+      "source": "Cards",
+      "target": "Cards (cards1)",
+      "key": "cards1",
+      "instances": [
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/billing-services",
+          "urlHash": "7edf790d262e5620ff30c7a4c512825cf6c3e9a8",
+          "uuid": "7edf790d-11-42a88bbb4b4bfaf0e62c59966dcc0edc8d1cb223",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[2]/div[1]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-5",
+          "differences": [
+            {
+              "element_id": "html__body__main__article__div__div__div__section_2__div__div__div__div__div_2",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Case Study: North Medical Billing Learn how North Medical Billing saved approximately 20 hours a week with TriZetto Provider Solutions\u2019 credentialing services. Fact Sheet: Strategic Billing Company Program Discover specialized services that can help your organization unlock its full potential."
+                }
+              ],
+              "dissimilarity_score": -0.0
+            }
+          ],
+          "similarity_score": 0.0
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/billing-services",
+          "urlHash": "7edf790d262e5620ff30c7a4c512825cf6c3e9a8",
+          "uuid": "7edf790d-12-7f2b48272b5c2fb74456a4fa444ad4e51f989a83",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-5",
+          "differences": [
+            {
+              "element_id": "html__body__main__article__div__div__div__section_2__div__div__div__div__div_3",
+              "differences": [
+                {
+                  "change_type": "deletion",
+                  "text": "Fact"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Case"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Sheet"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Study"
+                },
+                {
+                  "change_type": "equal",
+                  "text": ": "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Billing"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "North"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Services"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Medical"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Credentialing"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Billing"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " Learn how "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "TPS"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "North Medical"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "simplifies"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Billing"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "the"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "saved"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "approximately 20 hours a week with TriZetto Provider Solutions\u2019 "
+                },
+                {
+                  "change_type": "equal",
+                  "text": "credentialing "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "process"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "services. Fact"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "for"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Sheet: Strategic"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "billing"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Billing Company"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "companies"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Program"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "so"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Discover"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "you"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "specialized services that"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " can "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "optimize"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "help"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " your "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "internal resources"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "organization"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "and"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "unlock"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "offset"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "its"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "your"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "full"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "workload"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "potential"
+                },
+                {
+                  "change_type": "equal",
+                  "text": "."
+                }
+              ],
+              "dissimilarity_score": 0.72
+            }
+          ],
+          "similarity_score": 0.28
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/health-systems",
+          "urlHash": "97964df3ccee53761c35d671779b0a9cf8fdec1d",
+          "uuid": "97964df3-11-42a88bbb4b4bfaf0e62c59966dcc0edc8d1cb223",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[2]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/physician-practices",
+          "urlHash": "bb765d13534579f86662fac867381008bf24e703",
+          "uuid": "bb765d13-11-42a88bbb4b4bfaf0e62c59966dcc0edc8d1cb223",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[2]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 2,
+      "source": "Header",
+      "target": "Header (header2)",
+      "key": "header2",
+      "instances": [
+        {
+          "url": "https://www.trizettoprovider.com/who-we-are/our-story",
+          "urlHash": "12a06b00a36192dfdf759f24a50dcb90de19cd71",
+          "uuid": "12a06b00-01-a4e8d78da6e5b4998fbb5ce0f6afa7284e895f2e",
+          "xpath": "/html[1]/body[1]/header[1]/div[2]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-are/leadership",
+          "urlHash": "2751c11b708fc09ec0315e06c98777613a649d83",
+          "uuid": "2751c11b-01-a4e8d78da6e5b4998fbb5ce0f6afa7284e895f2e",
+          "xpath": "/html[1]/body[1]/header[1]/div[2]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/billing-services",
+          "urlHash": "7edf790d262e5620ff30c7a4c512825cf6c3e9a8",
+          "uuid": "7edf790d-01-a4e8d78da6e5b4998fbb5ce0f6afa7284e895f2e",
+          "xpath": "/html[1]/body[1]/header[1]/div[2]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/health-systems",
+          "urlHash": "97964df3ccee53761c35d671779b0a9cf8fdec1d",
+          "uuid": "97964df3-01-a4e8d78da6e5b4998fbb5ce0f6afa7284e895f2e",
+          "xpath": "/html[1]/body[1]/header[1]/div[2]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/hospitals-and-health-centers",
+          "urlHash": "a0d5c56c006d8f0e2716e5e2a7b63a23de658059",
+          "uuid": "a0d5c56c-01-a4e8d78da6e5b4998fbb5ce0f6afa7284e895f2e",
+          "xpath": "/html[1]/body[1]/header[1]/div[2]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/physician-practices",
+          "urlHash": "bb765d13534579f86662fac867381008bf24e703",
+          "uuid": "bb765d13-01-a4e8d78da6e5b4998fbb5ce0f6afa7284e895f2e",
+          "xpath": "/html[1]/body[1]/header[1]/div[2]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/",
+          "urlHash": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d",
+          "uuid": "dd6dfba1-01-a4e8d78da6e5b4998fbb5ce0f6afa7284e895f2e",
+          "xpath": "/html[1]/body[1]/header[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 3,
+      "source": "Columns block",
+      "target": "Columns block (columns3)",
+      "key": "columns3",
+      "instances": [
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/billing-services",
+          "urlHash": "7edf790d262e5620ff30c7a4c512825cf6c3e9a8",
+          "uuid": "7edf790d-07-7a23a236b668e3a7208203f36d2fa7271b62249c",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/billing-services",
+          "urlHash": "7edf790d262e5620ff30c7a4c512825cf6c3e9a8",
+          "uuid": "7edf790d-08-253bc8b86780d23e61ef36500bc7455ce1decd52",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/billing-services",
+          "urlHash": "7edf790d262e5620ff30c7a4c512825cf6c3e9a8",
+          "uuid": "7edf790d-09-479124d57603e5cf600f73fb1c54ae894ef9a1fe",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/health-systems",
+          "urlHash": "97964df3ccee53761c35d671779b0a9cf8fdec1d",
+          "uuid": "97964df3-07-7a23a236b668e3a7208203f36d2fa7271b62249c",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-5"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/health-systems",
+          "urlHash": "97964df3ccee53761c35d671779b0a9cf8fdec1d",
+          "uuid": "97964df3-08-253bc8b86780d23e61ef36500bc7455ce1decd52",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-5"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/health-systems",
+          "urlHash": "97964df3ccee53761c35d671779b0a9cf8fdec1d",
+          "uuid": "97964df3-09-479124d57603e5cf600f73fb1c54ae894ef9a1fe",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-5"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/hospitals-and-health-centers",
+          "urlHash": "a0d5c56c006d8f0e2716e5e2a7b63a23de658059",
+          "uuid": "a0d5c56c-07-7a23a236b668e3a7208203f36d2fa7271b62249c",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/hospitals-and-health-centers",
+          "urlHash": "a0d5c56c006d8f0e2716e5e2a7b63a23de658059",
+          "uuid": "a0d5c56c-08-253bc8b86780d23e61ef36500bc7455ce1decd52",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/hospitals-and-health-centers",
+          "urlHash": "a0d5c56c006d8f0e2716e5e2a7b63a23de658059",
+          "uuid": "a0d5c56c-09-479124d57603e5cf600f73fb1c54ae894ef9a1fe",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/physician-practices",
+          "urlHash": "bb765d13534579f86662fac867381008bf24e703",
+          "uuid": "bb765d13-07-7a23a236b668e3a7208203f36d2fa7271b62249c",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-5"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/physician-practices",
+          "urlHash": "bb765d13534579f86662fac867381008bf24e703",
+          "uuid": "bb765d13-08-253bc8b86780d23e61ef36500bc7455ce1decd52",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-5"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/physician-practices",
+          "urlHash": "bb765d13534579f86662fac867381008bf24e703",
+          "uuid": "bb765d13-09-479124d57603e5cf600f73fb1c54ae894ef9a1fe",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-5"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 4,
+      "source": "Hero",
+      "target": "Hero (hero4)",
+      "key": "hero4",
+      "instances": [
+        {
+          "url": "https://www.trizettoprovider.com/who-we-are/our-story",
+          "urlHash": "12a06b00a36192dfdf759f24a50dcb90de19cd71",
+          "uuid": "12a06b00-02-74fcd2c621fcaa9ae9bcd431d9039be9d9684158",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-1",
+          "differences": [
+            {
+              "element_id": "html__body__main__article__div__div__div__div",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "The TriZetto Provider Solutions Story"
+                }
+              ],
+              "dissimilarity_score": -0.0
+            }
+          ],
+          "similarity_score": 0.0
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-are/leadership",
+          "urlHash": "2751c11b708fc09ec0315e06c98777613a649d83",
+          "uuid": "2751c11b-02-74fcd2c621fcaa9ae9bcd431d9039be9d9684158",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-2",
+          "differences": [
+            {
+              "element_id": "html__body__main__article__div__div__div__div",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Leadership"
+                }
+              ],
+              "dissimilarity_score": 0.0
+            }
+          ],
+          "similarity_score": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 5,
+      "source": "Columns block",
+      "target": "Columns block (columns5)",
+      "key": "columns5",
+      "instances": [
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/billing-services",
+          "urlHash": "7edf790d262e5620ff30c7a4c512825cf6c3e9a8",
+          "uuid": "7edf790d-04-6663ae7b4f78f6660d731fe42e4a3a9645593497",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[5]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/health-systems",
+          "urlHash": "97964df3ccee53761c35d671779b0a9cf8fdec1d",
+          "uuid": "97964df3-04-6663ae7b4f78f6660d731fe42e4a3a9645593497",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[5]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/hospitals-and-health-centers",
+          "urlHash": "a0d5c56c006d8f0e2716e5e2a7b63a23de658059",
+          "uuid": "a0d5c56c-04-6663ae7b4f78f6660d731fe42e4a3a9645593497",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[5]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/physician-practices",
+          "urlHash": "bb765d13534579f86662fac867381008bf24e703",
+          "uuid": "bb765d13-04-6663ae7b4f78f6660d731fe42e4a3a9645593497",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[5]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 6,
+      "source": "Columns block",
+      "target": "Columns block (columns6)",
+      "key": "columns6",
+      "instances": [
+        {
+          "url": "https://www.trizettoprovider.com/who-we-are/leadership",
+          "urlHash": "2751c11b708fc09ec0315e06c98777613a649d83",
+          "uuid": "2751c11b-07-54f90bb5bf828d597948f7d67da22fe33498c3d2",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-are/leadership",
+          "urlHash": "2751c11b708fc09ec0315e06c98777613a649d83",
+          "uuid": "2751c11b-08-0dcd123e2956d4aa1b9de3f53d22af7e198a0ea6",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[6]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-are/leadership",
+          "urlHash": "2751c11b708fc09ec0315e06c98777613a649d83",
+          "uuid": "2751c11b-09-9d82261bd1b7afe641fbcc151e4edd71e6787514",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[8]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-are/leadership",
+          "urlHash": "2751c11b708fc09ec0315e06c98777613a649d83",
+          "uuid": "2751c11b-10-8e73c78fdb193d46bdc5d2129336f1ddb3c4e975",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[10]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 7,
+      "source": "Columns",
+      "target": "Columns (columns7)",
+      "key": "columns7",
+      "instances": [
+        {
+          "url": "https://www.trizettoprovider.com/who-we-are/our-story",
+          "urlHash": "12a06b00a36192dfdf759f24a50dcb90de19cd71",
+          "uuid": "12a06b00-14-ab3e4de776b49f538ccb9d433b686862faf5a7cc",
+          "xpath": "/html[1]/body[1]/div[3]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-are/leadership",
+          "urlHash": "2751c11b708fc09ec0315e06c98777613a649d83",
+          "uuid": "2751c11b-11-ab3e4de776b49f538ccb9d433b686862faf5a7cc",
+          "xpath": "/html[1]/body[1]/div[3]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/billing-services",
+          "urlHash": "7edf790d262e5620ff30c7a4c512825cf6c3e9a8",
+          "uuid": "7edf790d-13-ab3e4de776b49f538ccb9d433b686862faf5a7cc",
+          "xpath": "/html[1]/body[1]/div[3]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/health-systems",
+          "urlHash": "97964df3ccee53761c35d671779b0a9cf8fdec1d",
+          "uuid": "97964df3-13-ab3e4de776b49f538ccb9d433b686862faf5a7cc",
+          "xpath": "/html[1]/body[1]/div[3]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/hospitals-and-health-centers",
+          "urlHash": "a0d5c56c006d8f0e2716e5e2a7b63a23de658059",
+          "uuid": "a0d5c56c-11-ab3e4de776b49f538ccb9d433b686862faf5a7cc",
+          "xpath": "/html[1]/body[1]/div[3]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/physician-practices",
+          "urlHash": "bb765d13534579f86662fac867381008bf24e703",
+          "uuid": "bb765d13-12-ab3e4de776b49f538ccb9d433b686862faf5a7cc",
+          "xpath": "/html[1]/body[1]/div[3]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/",
+          "urlHash": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d",
+          "uuid": "dd6dfba1-18-ab3e4de776b49f538ccb9d433b686862faf5a7cc",
+          "xpath": "/html[1]/body[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 8,
+      "instances": [
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/billing-services",
+          "urlHash": "7edf790d262e5620ff30c7a4c512825cf6c3e9a8",
+          "uuid": "7edf790d-03-946c96b1b10247103ead2d427ba8b2ad051e4c49",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/hospitals-and-health-centers",
+          "urlHash": "a0d5c56c006d8f0e2716e5e2a7b63a23de658059",
+          "uuid": "a0d5c56c-03-946c96b1b10247103ead2d427ba8b2ad051e4c49",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/physician-practices",
+          "urlHash": "bb765d13534579f86662fac867381008bf24e703",
+          "uuid": "bb765d13-03-946c96b1b10247103ead2d427ba8b2ad051e4c49",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]"
+        }
+      ],
+      "key": "unknown8"
+    },
+    {
+      "name": "Cards",
+      "cluster": 9,
+      "source": "Cards",
+      "target": "Cards (cards9)",
+      "key": "cards9",
+      "instances": [
+        {
+          "url": "https://www.trizettoprovider.com/who-we-are/leadership",
+          "urlHash": "2751c11b708fc09ec0315e06c98777613a649d83",
+          "uuid": "2751c11b-04-8c772bc18034c2e2cbca142f4b8ea20ae18746d2",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]",
+          "differences": [
+            {
+              "element_id": "html__body__main__article__div__div__div__div_3__div__div__div__div_2",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Tom Galle General Manager Chief Executive Officer Heather Donohue Chief Operating Officer"
+                }
+              ],
+              "dissimilarity_score": 0.0
+            }
+          ],
+          "similarity_score": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 10,
+      "source": "Hero",
+      "target": "Hero (hero10)",
+      "key": "hero10",
+      "instances": [
+        {
+          "url": "https://www.trizettoprovider.com/",
+          "urlHash": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d",
+          "uuid": "dd6dfba1-07-1e92b96fe642e073711dc4fbef20cae6c425b265",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[7]/div[2]/div[1]/div[1]/div[3]/div[4]/div[1]/div[1]/div[1]/div[2]",
+          "differences": [
+            {
+              "element_id": "html__body__main__article__div__div__div__div_7__div_2__div__div__div_3__div_4__div__div__div__div_2",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "25-30% of revenue is lost to improper billing Explore Solutions"
+                }
+              ],
+              "dissimilarity_score": -0.0
+            }
+          ],
+          "similarity_score": 0.0
+        },
+        {
+          "url": "https://www.trizettoprovider.com/",
+          "urlHash": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d",
+          "uuid": "dd6dfba1-08-7b3f071bb1f63943204f590f4e72adb3803b4faa",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[7]/div[2]/div[1]/div[1]/div[3]/div[5]/div[1]/div[1]/div[1]/div[2]",
+          "differences": [
+            {
+              "element_id": "html__body__main__article__div__div__div__div_7__div_2__div__div__div_3__div_5__div__div__div__div_2",
+              "differences": [
+                {
+                  "change_type": "deletion",
+                  "text": "Up"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "25-30% of"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "to"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "revenue"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "50% reduction"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "is"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "in"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "lost"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "credentialing"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "to"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "cycle"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "improper"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "times"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "billing"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " Explore Solutions"
+                }
+              ],
+              "dissimilarity_score": 0.83
+            }
+          ],
+          "similarity_score": 0.17000000000000004
+        },
+        {
+          "url": "https://www.trizettoprovider.com/",
+          "urlHash": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d",
+          "uuid": "dd6dfba1-09-42daaf8cf9cb22d56c86de5a0deb79739da00531",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[7]/div[2]/div[1]/div[1]/div[3]/div[6]/div[1]/div[1]/div[1]/div[2]",
+          "differences": [
+            {
+              "element_id": "html__body__main__article__div__div__div__div_7__div_2__div__div__div_3__div_6__div__div__div__div_2",
+              "differences": [
+                {
+                  "change_type": "deletion",
+                  "text": "Dissect"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "25-30% of"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " revenue "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "performance with"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "is"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "12"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "lost"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "months"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "to"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "of"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "improper"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "data"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "billing"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " Explore Solutions"
+                }
+              ],
+              "dissimilarity_score": 0.76
+            }
+          ],
+          "similarity_score": 0.24
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 11,
+      "source": "Cards",
+      "target": "Cards (cards11)",
+      "key": "cards11",
+      "instances": [
+        {
+          "url": "https://www.trizettoprovider.com/",
+          "urlHash": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d",
+          "uuid": "dd6dfba1-17-8e73c78fdb193d46bdc5d2129336f1ddb3c4e975",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[10]",
+          "section": "section-8",
+          "differences": [
+            {
+              "element_id": "html__body__main__article__div__div__div__div_10",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "See TPS in Action Ready to simplify your business? Let's get started Healthcare Resources Looking for industry insight? You came to the right place Stay in the know"
+                }
+              ],
+              "dissimilarity_score": 0.0
+            }
+          ],
+          "similarity_score": 0.0
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 12,
+      "source": "Header",
+      "target": "Header (header12)",
+      "key": "header12",
+      "instances": [
+        {
+          "url": "https://www.trizettoprovider.com/who-we-are/our-story",
+          "urlHash": "12a06b00a36192dfdf759f24a50dcb90de19cd71",
+          "uuid": "12a06b00-00-70928af0e9d7f0ac1f13f2d60f543d2cf08783dd",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-are/leadership",
+          "urlHash": "2751c11b708fc09ec0315e06c98777613a649d83",
+          "uuid": "2751c11b-00-70928af0e9d7f0ac1f13f2d60f543d2cf08783dd",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/billing-services",
+          "urlHash": "7edf790d262e5620ff30c7a4c512825cf6c3e9a8",
+          "uuid": "7edf790d-00-70928af0e9d7f0ac1f13f2d60f543d2cf08783dd",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/health-systems",
+          "urlHash": "97964df3ccee53761c35d671779b0a9cf8fdec1d",
+          "uuid": "97964df3-00-70928af0e9d7f0ac1f13f2d60f543d2cf08783dd",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/hospitals-and-health-centers",
+          "urlHash": "a0d5c56c006d8f0e2716e5e2a7b63a23de658059",
+          "uuid": "a0d5c56c-00-70928af0e9d7f0ac1f13f2d60f543d2cf08783dd",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/physician-practices",
+          "urlHash": "bb765d13534579f86662fac867381008bf24e703",
+          "uuid": "bb765d13-00-70928af0e9d7f0ac1f13f2d60f543d2cf08783dd",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/",
+          "urlHash": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d",
+          "uuid": "dd6dfba1-00-70928af0e9d7f0ac1f13f2d60f543d2cf08783dd",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 13,
+      "source": "Hero",
+      "target": "Hero (hero13)",
+      "key": "hero13",
+      "instances": [
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/billing-services",
+          "urlHash": "7edf790d262e5620ff30c7a4c512825cf6c3e9a8",
+          "uuid": "7edf790d-05-f833a4a1caad14d5dac5ba8b0d0048db2f718cf3",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[7]",
+          "section": "section-4",
+          "differences": [
+            {
+              "element_id": "html__body__main__article__div__div__div__div_7",
+              "differences": [
+                {
+                  "change_type": "deletion",
+                  "text": "\u201c "
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "\u201c"
+                },
+                {
+                  "change_type": "equal",
+                  "text": "Customer service is big for us, so working with a partner like TriZetto Provider Solutions who shares our concerns and understands that our problems are their problems is important. \u201d \u2013 Mike Lewis, Founder & CEO, Quick Med Claims"
+                }
+              ],
+              "dissimilarity_score": -0.0
+            }
+          ],
+          "similarity_score": 0.0
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/health-systems",
+          "urlHash": "97964df3ccee53761c35d671779b0a9cf8fdec1d",
+          "uuid": "97964df3-05-f833a4a1caad14d5dac5ba8b0d0048db2f718cf3",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[7]",
+          "section": "section-4"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/hospitals-and-health-centers",
+          "urlHash": "a0d5c56c006d8f0e2716e5e2a7b63a23de658059",
+          "uuid": "a0d5c56c-05-f833a4a1caad14d5dac5ba8b0d0048db2f718cf3",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[7]",
+          "section": "section-4"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/physician-practices",
+          "urlHash": "bb765d13534579f86662fac867381008bf24e703",
+          "uuid": "bb765d13-05-f833a4a1caad14d5dac5ba8b0d0048db2f718cf3",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[7]",
+          "section": "section-4"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/",
+          "urlHash": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d",
+          "uuid": "dd6dfba1-03-e571244482374834ab8d382213b3c6a4dae68844",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[3]",
+          "differences": [
+            {
+              "element_id": "html__body__main__article__div__div__div__div_3",
+              "differences": [
+                {
+                  "change_type": "deletion",
+                  "text": "\u201c "
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "\u201c"
+                },
+                {
+                  "change_type": "equal",
+                  "text": "TPS has helped us create a straightforward, standardized workflow. Our efficiency has increased and things are getting done in a more timely fashion. \u201d \u2013 Laura Dill, Billing Manager, Bucksport Regional Health Center"
+                }
+              ],
+              "dissimilarity_score": 0.0
+            }
+          ],
+          "similarity_score": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 14,
+      "source": "Hero",
+      "target": "Hero (hero14)",
+      "key": "hero14",
+      "instances": [
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/billing-services",
+          "urlHash": "7edf790d262e5620ff30c7a4c512825cf6c3e9a8",
+          "uuid": "7edf790d-02-74fcd2c621fcaa9ae9bcd431d9039be9d9684158",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-3",
+          "differences": [
+            {
+              "element_id": "html__body__main__article__div__div__div__div",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Specialized services to unlock potential"
+                }
+              ],
+              "dissimilarity_score": -0.0
+            }
+          ],
+          "similarity_score": 0.0
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/health-systems",
+          "urlHash": "97964df3ccee53761c35d671779b0a9cf8fdec1d",
+          "uuid": "97964df3-02-74fcd2c621fcaa9ae9bcd431d9039be9d9684158",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-6"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/physician-practices",
+          "urlHash": "bb765d13534579f86662fac867381008bf24e703",
+          "uuid": "bb765d13-02-74fcd2c621fcaa9ae9bcd431d9039be9d9684158",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-7"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 15,
+      "instances": [
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/health-systems",
+          "urlHash": "97964df3ccee53761c35d671779b0a9cf8fdec1d",
+          "uuid": "97964df3-03-946c96b1b10247103ead2d427ba8b2ad051e4c49",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]"
+        }
+      ],
+      "key": "unknown15"
+    },
+    {
+      "name": "Cards",
+      "cluster": 16,
+      "source": "Cards",
+      "target": "Cards (cards16)",
+      "key": "cards16",
+      "instances": [
+        {
+          "url": "https://www.trizettoprovider.com/who-we-are/leadership",
+          "urlHash": "2751c11b708fc09ec0315e06c98777613a649d83",
+          "uuid": "2751c11b-05-4e1b3e38529ab381f37efe849dbabb3d24197626",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[3]",
+          "differences": [
+            {
+              "element_id": "html__body__main__article__div__div__div__div_3__div__div__div__div_3",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Allison Roberts Chief Revenue Officer"
+                }
+              ],
+              "dissimilarity_score": -0.0
+            }
+          ],
+          "similarity_score": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 17,
+      "source": "Hero",
+      "target": "Hero (hero17)",
+      "key": "hero17",
+      "instances": [
+        {
+          "url": "https://www.trizettoprovider.com/who-we-serve/hospitals-and-health-centers",
+          "urlHash": "a0d5c56c006d8f0e2716e5e2a7b63a23de658059",
+          "uuid": "a0d5c56c-02-74fcd2c621fcaa9ae9bcd431d9039be9d9684158",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 18,
+      "source": "Columns block",
+      "target": "Columns block (columns18)",
+      "key": "columns18",
+      "instances": [
+        {
+          "url": "https://www.trizettoprovider.com/",
+          "urlHash": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d",
+          "uuid": "dd6dfba1-15-45dcded0df10f2a397a6cdf8ebf613c8189baa2d",
+          "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[6]"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://www.trizettoprovider.com/who-we-are/our-story",
+      "urlHash": "12a06b00a36192dfdf759f24a50dcb90de19cd71",
+      "uuid": "12a06b00-03-0812723dfee6bcd3edc3440c6d8b9fcfd7c3da25",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-are/our-story",
+      "urlHash": "12a06b00a36192dfdf759f24a50dcb90de19cd71",
+      "uuid": "12a06b00-04-224976ab47a6eee46f86e22b25afaca702802d51",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-are/our-story",
+      "urlHash": "12a06b00a36192dfdf759f24a50dcb90de19cd71",
+      "uuid": "12a06b00-05-79d006d263fd62fbe4c0566e6be2c13e565847b7",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-are/our-story",
+      "urlHash": "12a06b00a36192dfdf759f24a50dcb90de19cd71",
+      "uuid": "12a06b00-06-95213455009f1519c5c3103cb1b58ac2610a1a1c",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-are/our-story",
+      "urlHash": "12a06b00a36192dfdf759f24a50dcb90de19cd71",
+      "uuid": "12a06b00-07-5f469063976b010a8998e2ba1585c1c325bf6f1c",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-are/our-story",
+      "urlHash": "12a06b00a36192dfdf759f24a50dcb90de19cd71",
+      "uuid": "12a06b00-08-14090bfbcd4dcead54caded70586d2cd7f9d7a75",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[5]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-are/our-story",
+      "urlHash": "12a06b00a36192dfdf759f24a50dcb90de19cd71",
+      "uuid": "12a06b00-09-6d7513a6e5d2f8c95e8f2bd0ac98f7f642cc7239",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[5]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-are/our-story",
+      "urlHash": "12a06b00a36192dfdf759f24a50dcb90de19cd71",
+      "uuid": "12a06b00-10-8b0ed81ddf8fc5c9d2dd2b88c5558d0af928d2bc",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[5]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-are/our-story",
+      "urlHash": "12a06b00a36192dfdf759f24a50dcb90de19cd71",
+      "uuid": "12a06b00-11-05c1f856b5fdaf65b24ce049b72c9b79bfd2051d",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[5]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-are/our-story",
+      "urlHash": "12a06b00a36192dfdf759f24a50dcb90de19cd71",
+      "uuid": "12a06b00-12-e4d3a169fd14562460ee1d5c2fd63f44d6cf768a",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[5]/div[2]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-are/our-story",
+      "urlHash": "12a06b00a36192dfdf759f24a50dcb90de19cd71",
+      "uuid": "12a06b00-13-f833a4a1caad14d5dac5ba8b0d0048db2f718cf3",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[7]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-are/our-story",
+      "urlHash": "12a06b00a36192dfdf759f24a50dcb90de19cd71",
+      "uuid": "12a06b00-15-a507e040135207256fc0c4fd07f12510b5a9e729",
+      "xpath": "/html[1]/body[1]/footer[1]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-are/leadership",
+      "urlHash": "2751c11b708fc09ec0315e06c98777613a649d83",
+      "uuid": "2751c11b-03-946c96b1b10247103ead2d427ba8b2ad051e4c49",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-are/leadership",
+      "urlHash": "2751c11b708fc09ec0315e06c98777613a649d83",
+      "uuid": "2751c11b-06-6275a09c198824868a90c58f319e735bb9a87220",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-are/leadership",
+      "urlHash": "2751c11b708fc09ec0315e06c98777613a649d83",
+      "uuid": "2751c11b-12-a507e040135207256fc0c4fd07f12510b5a9e729",
+      "xpath": "/html[1]/body[1]/footer[1]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-serve/billing-services",
+      "urlHash": "7edf790d262e5620ff30c7a4c512825cf6c3e9a8",
+      "uuid": "7edf790d-06-0fd2e2d4eaf9342ea162282b351350871598ed9c",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-serve/billing-services",
+      "urlHash": "7edf790d262e5620ff30c7a4c512825cf6c3e9a8",
+      "uuid": "7edf790d-10-ef4697d8ab1131e729cf3c58c78622c825ceabd9",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "section": "section-5"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-serve/billing-services",
+      "urlHash": "7edf790d262e5620ff30c7a4c512825cf6c3e9a8",
+      "uuid": "7edf790d-14-a507e040135207256fc0c4fd07f12510b5a9e729",
+      "xpath": "/html[1]/body[1]/footer[1]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-serve/health-systems",
+      "urlHash": "97964df3ccee53761c35d671779b0a9cf8fdec1d",
+      "uuid": "97964df3-06-0fd2e2d4eaf9342ea162282b351350871598ed9c",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "section": "section-5"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-serve/health-systems",
+      "urlHash": "97964df3ccee53761c35d671779b0a9cf8fdec1d",
+      "uuid": "97964df3-10-ef4697d8ab1131e729cf3c58c78622c825ceabd9",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[2]/div[1]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-serve/health-systems",
+      "urlHash": "97964df3ccee53761c35d671779b0a9cf8fdec1d",
+      "uuid": "97964df3-12-7f2b48272b5c2fb74456a4fa444ad4e51f989a83",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[2]/div[1]/div[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-serve/health-systems",
+      "urlHash": "97964df3ccee53761c35d671779b0a9cf8fdec1d",
+      "uuid": "97964df3-14-a507e040135207256fc0c4fd07f12510b5a9e729",
+      "xpath": "/html[1]/body[1]/footer[1]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-serve/hospitals-and-health-centers",
+      "urlHash": "a0d5c56c006d8f0e2716e5e2a7b63a23de658059",
+      "uuid": "a0d5c56c-06-0fd2e2d4eaf9342ea162282b351350871598ed9c",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-serve/hospitals-and-health-centers",
+      "urlHash": "a0d5c56c006d8f0e2716e5e2a7b63a23de658059",
+      "uuid": "a0d5c56c-10-a15a6c11afb8914aab61db8d5c72985cd2c3c445",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[2]",
+      "section": "section-5"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-serve/hospitals-and-health-centers",
+      "urlHash": "a0d5c56c006d8f0e2716e5e2a7b63a23de658059",
+      "uuid": "a0d5c56c-12-a507e040135207256fc0c4fd07f12510b5a9e729",
+      "xpath": "/html[1]/body[1]/footer[1]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-serve/physician-practices",
+      "urlHash": "bb765d13534579f86662fac867381008bf24e703",
+      "uuid": "bb765d13-06-0fd2e2d4eaf9342ea162282b351350871598ed9c",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "section": "section-5"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-serve/physician-practices",
+      "urlHash": "bb765d13534579f86662fac867381008bf24e703",
+      "uuid": "bb765d13-10-ef4697d8ab1131e729cf3c58c78622c825ceabd9",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[2]/div[1]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-serve/physician-practices",
+      "urlHash": "bb765d13534579f86662fac867381008bf24e703",
+      "uuid": "bb765d13-13-a507e040135207256fc0c4fd07f12510b5a9e729",
+      "xpath": "/html[1]/body[1]/footer[1]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/",
+      "urlHash": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d",
+      "uuid": "dd6dfba1-02-74fcd2c621fcaa9ae9bcd431d9039be9d9684158",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/",
+      "urlHash": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d",
+      "uuid": "dd6dfba1-04-6663ae7b4f78f6660d731fe42e4a3a9645593497",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[5]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/",
+      "urlHash": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d",
+      "uuid": "dd6dfba1-05-de4a828d2eea8a3e89538b71fb238e40484b1c21",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[7]/div[2]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/",
+      "urlHash": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d",
+      "uuid": "dd6dfba1-06-87e3742b0ab952ed3229423f182a3d088312c7df",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[7]/div[2]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/",
+      "urlHash": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d",
+      "uuid": "dd6dfba1-10-f5e88445eaf8d77ecd2a615c17db71a8f8c392f2",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/",
+      "urlHash": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d",
+      "uuid": "dd6dfba1-11-977bd2ef4a403b9504304819f88d2755360097e7",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/",
+      "urlHash": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d",
+      "uuid": "dd6dfba1-12-de6d526dbca9486c0a72c728b1b3532d12258889",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/",
+      "urlHash": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d",
+      "uuid": "dd6dfba1-13-815c23206c43a99c658f48e363bbba4e795ee323",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/",
+      "urlHash": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d",
+      "uuid": "dd6dfba1-14-804956a6621afb55e83ce2ceb1ee548c53dd8776",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[5]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/",
+      "urlHash": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d",
+      "uuid": "dd6dfba1-16-201ada0594a495703c41d8511eb39b534b96538f",
+      "xpath": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[7]"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/",
+      "urlHash": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d",
+      "uuid": "dd6dfba1-19-a507e040135207256fc0c4fd07f12510b5a9e729",
+      "xpath": "/html[1]/body[1]/footer[1]"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.trizettoprovider.com/",
+      "differences": [
+        {
+          "change_type": "deletion",
+          "text": "Manage Your Data By using this website, you agree to our use of cookies. We use cookies to provide you with a great experience and to help our website run effectively. Functional Functional Always active The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network. Preferences Preferences The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user. Statistics Statistics The technical storage or access that is used exclusively for statistical purposes. The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you. Marketing Marketing The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes. Manage options Manage services Manage {vendor_count} vendors Read more about these purposes Accept Deny View preferences Save preferences View preferences Opt-out preferences Privacy Statement {title} Skip to the content Close Menu "
+        },
+        {
+          "change_type": "equal",
+          "text": "Get Connected Are you in sudden need of a clearinghouse solution? We\u2019re here to help. With over 650 direct EMR and Practice Management System integrations, learn how our SOC 2, EHNAC and HITRUST certified platform can ensure you can get back up and running within days. Fast Track Your Clearinghouse Enrollment"
+        },
+        {
+          "change_type": "deletion",
+          "text": " \u201c "
+        },
+        {
+          "change_type": "insertion",
+          "text": " \u201c"
+        },
+        {
+          "change_type": "equal",
+          "text": "TPS has helped us create a straightforward, standardized workflow. Our efficiency has increased and things are getting done in a more timely fashion. \u201d \u2013 Laura Dill, Billing Manager, Bucksport Regional Health Center Solutions"
+        },
+        {
+          "change_type": "deletion",
+          "text": " Submit clean claims with Claims Management solutions 98% Average payer acceptance rate for our clients Explore Solutions Transform your patient experience with Patient Engagement solutions Over 30% of revenue from patients Explore Solutions Increase speed to payment with Rejection & Denials Management solutions 63% of denials are recoverable Explore Solutions Optimize your costs with Revenue Cycle Management services"
+        },
+        {
+          "change_type": "equal",
+          "text": " 25-30% of revenue is lost to improper billing Explore Solutions "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Remedy inefficiencies with Credentialing services "
+        },
+        {
+          "change_type": "equal",
+          "text": "Up to 50% reduction in credentialing cycle times Explore Solutions "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Visualize your data as actionable insights with Analytics solutions "
+        },
+        {
+          "change_type": "equal",
+          "text": "Dissect revenue performance with 12 months of data Explore Solutions The numbers don\u2019t lie. "
+        },
+        {
+          "change_type": "deletion",
+          "text": "862"
+        },
+        {
+          "change_type": "insertion",
+          "text": "0"
+        },
+        {
+          "change_type": "equal",
+          "text": " 875 K+ providers "
+        },
+        {
+          "change_type": "deletion",
+          "text": "640"
+        },
+        {
+          "change_type": "insertion",
+          "text": "0"
+        },
+        {
+          "change_type": "equal",
+          "text": " 650 PMS/EHR integrations "
+        },
+        {
+          "change_type": "deletion",
+          "text": "10"
+        },
+        {
+          "change_type": "insertion",
+          "text": "0"
+        },
+        {
+          "change_type": "equal",
+          "text": " 11 K+ payer connections "
+        },
+        {
+          "change_type": "deletion",
+          "text": "4"
+        },
+        {
+          "change_type": "insertion",
+          "text": "0"
+        },
+        {
+          "change_type": "equal",
+          "text": " 4 B+ transactions annually See TPS in Action Ready to simplify your business? Let's get started Healthcare Resources Looking for industry insight? You came to the right place Stay in the know"
+        },
+        {
+          "change_type": "deletion",
+          "text": " Contact Us Contact Us Who We Are Who We Are Who We Are Our Story Leadership Who We Serve Who We Serve Who We Serve Health Systems Hospitals & Health Centers Physician Practices Partners Payers Solutions Solutions Solutions Claims Management Patient Engagement Rejection and Denials Management Contract Management Revenue Cycle Management Services Credentialing Analytics Resources Resources Resources Healthcare Insider Events Payer List Opt-out preferences Footer Login Login Gateway EDI ClaimLogic NHXS Footer Social Links Connect Manage Your Data"
+        }
+      ],
+      "similarity_score": 0.6039335402569652
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-are/leadership",
+      "differences": [
+        {
+          "change_type": "deletion",
+          "text": "Manage Your Data By using this website, you agree to our use of cookies. We use cookies to provide you with a great experience and to help our website run effectively. Functional Functional Always active The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network. Preferences Preferences The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user. Statistics Statistics The technical storage or access that is used exclusively for statistical purposes. The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you. Marketing Marketing The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes. Manage options Manage services Manage {vendor_count} vendors Read more about these purposes Accept Deny View preferences Save preferences View preferences Opt-out preferences Privacy Statement {title} Skip to the content Close Menu "
+        },
+        {
+          "change_type": "equal",
+          "text": "Leadership Tom Galle General Manager Chief Executive Officer Heather Donohue Chief Operating Officer Allison Roberts Chief Revenue Officer Tom Galle General Manager, Chief Executive Officer As Chief Executive Officer, Tom oversees national operations and customer service functions for TriZetto Provider Solutions, a Cognizant Company. Tom\u2019s background in leading operations and service organizations spans more than 30 years. With extensive experience building organizational structures to drive efficiency and superior service, he brings years of success developing and executing operational strategies within start-up, growth and consolidation environments. Tom previously held leadership roles at Allianz Global Corporate & Specialty (AGCS), Utica National Insurance Group, MetLife and the Fireman\u2019s Fund Insurance Company. Tom attended Lindenwood University and earned a bachelor\u2019s degree in Business Administration. Michael Emerson Chief Information and Administrative Officer As Chief Information Officer, Mike leads TriZetto Provider Solutions, a Cognizant Company, in leveraging technology to transform, to drive growth and create a competitive advantage. His passion for innovation, combined with his business acumen and leadership capabilities, is key in helping TPS navigate the complex and rapidly changing digital landscape. As Chief Administrative Officer, Mike brings a wealth of experience and expertise in streamlining operations, and driving strategic initiatives across multiple functions within TPS. Mike excels in creating and nurturing cross-functional relationships, and his diverse background in international profit and non-profit sectors gives him a unique perspective in building efficient organizational structures while maximizing customer satisfaction. Prior to TriZetto Provider Solutions, he held global leadership positions in Allianz Global Corporate & Specialty (AGCS), worked as a Financial Consultant for the United Nations, and served as the Owner and CEO of a large medical supplies distributor in Istanbul, Turkey. Mike holds a Bachelor of Science degree in Business Administration from Bilkent University. Allison Roberts Chief Revenue Officer Allison Roberts brings over 25 years of healthcare industry experience to her role as Chief Revenue Officer at TriZetto Provider Solutions, a Cognizant Company, with expertise spanning strategy, operations, portfolio management and technology service delivery. In her position, she is responsible for customer success, business development and meeting global sales objectives through collaboration with payers, providers, channel partners, clients and prospective clients to increase efficiencies within revenue cycle processes. A results-oriented leader, she spearheads ideas and forms seamless partnerships with marketing and product teams to create creative solutions to solve diverse client needs. Her client-first approach is achieved by encouraging her associates to build long lasting relationships with clients to solve business issues so they can focus on providing quality care. Allison also serves as an executive lead for the TriZetto Provider Solutions Ambassador Team, an internal group of associates focused on building and executing the company\u2019s Heart for Service initiative. Prior to TriZetto Provider Solutions, she worked at a major insurance company as well as an independent physician\u2019s group. In her spare time, Allison stays busy watching her three daughters play soccer and is actively involved in her community through recycling and environmental conservation projects. She earned a bachelor\u2019s degree in healthcare management from Southern Illinois University, Carbondale. Heather Donohue Chief Operating Officer Heather Donohue brings over 20 years of healthcare industry experience to her role as Chief Operating Officer of TriZetto Provider Solutions, a Cognizant Company. Heather plays an integral role as a TriZetto Provider Solutions Executive Leadership team member and is a strategic leader with a proven track record of cultivating innovation, driving organizational efficiencies, transforming and improving performance, enhancing client relations, and increasing associate satisfaction. In her role as Chief Operating Office, Heather oversees national operations, including client services, account management, payer management, technical operations, and all other aspects supporting the products and services of TriZetto Provider Solutions. When away from work, Heather enjoys spending time with her family, the beach, traveling, and experiencing new cultures"
+        },
+        {
+          "change_type": "deletion",
+          "text": ". Contact Us Contact Us Who We Are Who We Are Who We Are Our Story Leadership Who We Serve Who We Serve Who We Serve Health Systems Hospitals & Health Centers Physician Practices Partners Payers Solutions Solutions Solutions Claims Management Patient Engagement Rejection and Denials Management Contract Management Revenue Cycle Management Services Credentialing Analytics Resources Resources Resources Healthcare Insider Events Payer List Opt-out preferences Footer Login Login Gateway EDI ClaimLogic NHXS Footer Social Links Connect Manage Your Data"
+        },
+        {
+          "change_type": "insertion",
+          "text": "."
+        }
+      ],
+      "similarity_score": 0.8530585735933733
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-are/our-story",
+      "differences": [
+        {
+          "change_type": "deletion",
+          "text": "Manage Your Data By using this website, you agree to our use of cookies. We use cookies to provide you with a great experience and to help our website run effectively. Functional Functional Always active The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network. Preferences Preferences The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user. Statistics Statistics The technical storage or access that is used exclusively for statistical purposes. The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you. Marketing Marketing The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes. Manage options Manage services Manage {vendor_count} vendors Read more about these purposes Accept Deny View preferences Save preferences View preferences Opt-out preferences Privacy Statement {title} Skip to the content Close Menu "
+        },
+        {
+          "change_type": "equal",
+          "text": "The TriZetto Provider Solutions Story We keep a pulse on your business so you can focus on providing care. At TriZetto Provider Solutions, we aim to simplify the business of healthcare. By combining intuitive products and customer-focused services with in-depth industry knowledge, we provide complete revenue cycle management services to empower our clients to succeed. Fueled by Cognizant, our collective expertise and global reach allows for endless possibilities to work with our clients to transform healthcare. Our Heart for Service We like to think that our products and services act as the heartbeat of our clients\u2019 practices, and our company-wide promise to have a Heart for Service will serve as the underlying force that allows our clients\u2019 businesses to thrive through dedicated customer service. We believe when you put heart into what you do, anything is possible. TriZetto Provider Solutions is looking toward the future and working to positively disrupt the healthcare industry. As we move forward, we believe our associates, initiatives and industry-leading products and services will allow us to provide the best service to our clients. Explore our Capabilities"
+        },
+        {
+          "change_type": "deletion",
+          "text": " Contact Us Contact Us Who We Are Who We Are Who We Are Our Story Leadership Who We Serve Who We Serve Who We Serve Health Systems Hospitals & Health Centers Physician Practices Partners Payers Solutions Solutions Solutions Claims Management Patient Engagement Rejection and Denials Management Contract Management Revenue Cycle Management Services Credentialing Analytics Resources Resources Resources Healthcare Insider Events Payer List Opt-out preferences Footer Login Login Gateway EDI ClaimLogic NHXS Footer Social Links Connect Manage Your Data"
+        }
+      ],
+      "similarity_score": 0.7264588586713865
+    },
+    {
+      "url": "https://www.trizettoprovider.com/who-we-serve/billing-services",
+      "differences": [
+        {
+          "change_type": "deletion",
+          "text": "Manage Your Data By using this website, you agree to our use of cookies. We use cookies to provide you with a great experience and to help our website run effectively. Functional Functional Always active The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network. Preferences Preferences The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user. Statistics Statistics The technical storage or access that is used exclusively for statistical purposes. The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you. Marketing Marketing The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes. Manage options Manage services Manage {vendor_count} vendors Read more about these purposes Accept Deny View preferences Save preferences View preferences Opt-out preferences Privacy Statement {title} Skip to the content Close Menu "
+        },
+        {
+          "change_type": "equal",
+          "text": "Specialized services to unlock potential REQUEST DEMO "
+        },
+        {
+          "change_type": "deletion",
+          "text": "See TPS in Action. "
+        },
+        {
+          "change_type": "equal",
+          "text": "Billing Services A consultative approach. Your clients have high expectations. Whether looking to build efficiencies or expand capabilities, we can help your organization unlock its potential. Through our Strategic Billing Company Program, we design a customized plan of the right products, services and subject matter experts that will help you meet deliverables quicker and exceed goals. Let us help you support every facet of your client\u2019s revenue cycle by allowing your business to offer the best possible service. With our solutions, you can: Join a consultative partnership and receive tailored solutions Enhance your service portfolio Improve clean claim rates with the right tools Elevate patient satisfaction through price transparency Avoid credentialing, eligibility, coding and technical denials Decrease costs while increasing revenue U.S. physicians leave approximately $125 billion on the table each year due to poor billing practices"
+        },
+        {
+          "change_type": "deletion",
+          "text": " \u201c "
+        },
+        {
+          "change_type": "insertion",
+          "text": " \u201c"
+        },
+        {
+          "change_type": "equal",
+          "text": "Customer service is big for us, so working with a partner like TriZetto Provider Solutions who shares our concerns and understands that our problems are their problems is important. \u201d \u2013 Mike Lewis, Founder & CEO, Quick Med Claims Explore our Solutions Claims Management Submit fast and accurate claims. Our solutions help clients average a 98% payer acceptance rate. Billing & Coding Services Optimize your costs. Our services are designed to eliminate the need to hire and manage coders, billers, AR follow-up and cash posting reps. Patient Engagement Transform your patient experience. Meet the shift to healthcare consumerism head on with a seamless financial experience. Billing Services Credentialing Provider credentialing, simplified for billing services. Don\u2019t let a lack of time or knowledge allow a credentialing-related denials to hit your and your client\u2019s bottom line. Denials & Contract Management Maximize revenue recovery. Monitor every transaction to identify errors and automate the appeal process. Cognizant RCM Advance every aspect of your business office. Discover end-to-end RCM solutions powered by intelligent automation, proven methods and experienced professionals. Highlighted Resources Case Study: North Medical Billing Learn how North Medical Billing saved approximately 20 hours a week with TriZetto Provider Solutions\u2019 credentialing services. Fact Sheet: Strategic Billing Company Program Discover specialized services that can help your organization unlock its full potential. Fact Sheet: Billing Services Credentialing Learn how TPS simplifies the credentialing process for billing companies so you can optimize your internal resources and offset your workload"
+        },
+        {
+          "change_type": "deletion",
+          "text": ". Contact Us Contact Us Who We Are Who We Are Who We Are Our Story Leadership Who We Serve Who We Serve Who We Serve Health Systems Hospitals & Health Centers Physician Practices Partners Payers Solutions Solutions Solutions Claims Management Patient Engagement Rejection and Denials Management Contract Management Revenue Cycle Management Services Credentialing Analytics Resources Resources Resources Healthcare Insider Events Payer List Opt-out preferences Footer Login Login Gateway EDI ClaimLogic NHXS Footer Social Links Connect Manage Your Data"
+        },
+        {
+          "change_type": "insertion",
+          "text": "."
+        }
+      ],
+      "similarity_score": 0.8146843006244683
+    }
+  ]
+}
