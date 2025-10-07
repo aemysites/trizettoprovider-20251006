@@ -43,6 +43,54 @@
       "source": "MANUAL",
       "targetPath": "/who-we-serve/physician-practices",
       "id": "bb765d13534579f86662fac867381008bf24e703"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/top-healthcare-news-healthcare-supply-chains",
+      "source": "MANUAL",
+      "targetPath": "/top-healthcare-news-healthcare-supply-chains",
+      "id": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/effective-revenue-cycle-strategies-for-practice-management-post-pandemic",
+      "source": "MANUAL",
+      "targetPath": "/effective-revenue-cycle-strategies-for-practice-management-post-pandemic",
+      "id": "b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/top-healthcare-news-elective-surgeries",
+      "source": "MANUAL",
+      "targetPath": "/top-healthcare-news-elective-surgeries",
+      "id": "c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/provisional-credentialing",
+      "source": "MANUAL",
+      "targetPath": "/provisional-credentialing",
+      "id": "d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/top-healthcare-news-cms-regulatory-changes",
+      "source": "MANUAL",
+      "targetPath": "/top-healthcare-news-cms-regulatory-changes",
+      "id": "e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/with-hospitals-empty-of-traditional-patients-what-happens-when-we-get-back-normal",
+      "source": "MANUAL",
+      "targetPath": "/with-hospitals-empty-of-traditional-patients-what-happens-when-we-get-back-normal",
+      "id": "f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/why-b2b-should-take-b2c-cx-lessons-or-why-b2b-customers-are-people-too",
+      "source": "MANUAL",
+      "targetPath": "/why-b2b-should-take-b2c-cx-lessons-or-why-b2b-customers-are-people-too",
+      "id": "a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6"
+    },
+    {
+      "url": "https://www.trizettoprovider.com/decoding-the-hidden-costs-of-credentialing",
+      "source": "MANUAL",
+      "targetPath": "/decoding-the-hidden-costs-of-credentialing",
+      "id": "b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7"
     }
   ],
   "lastCrawled": "MANUAL",
