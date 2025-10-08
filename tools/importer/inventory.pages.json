@@ -1,7 +1,7 @@
 {
   "templates": [
     {
-      "name": "Corporate Multi-Section Template",
+      "name": "Corporate Multi-Section Layout",
       "cluster": 1,
       "pages": [
         {
@@ -23,18 +23,8 @@
       ]
     },
     {
-      "name": "'Team Profile Page'",
+      "name": "\"Technology Overview Page\"",
       "cluster": 2,
-      "pages": [
-        {
-          "url": "https://www.trizettoprovider.com/who-we-are/leadership",
-          "uuid": "2751c11b708fc09ec0315e06c98777613a649d83"
-        }
-      ]
-    },
-    {
-      "name": "'Timeline Page'",
-      "cluster": 3,
       "pages": [
         {
           "url": "https://www.trizettoprovider.com/who-we-are/our-story",
@@ -43,12 +33,60 @@
       ]
     },
     {
-      "name": "\"Business Homepage\"",
+      "name": "'Corporate Overview'",
+      "cluster": 3,
+      "pages": [
+        {
+          "url": "https://www.trizettoprovider.com/top-healthcare-news-healthcare-supply-chains",
+          "uuid": "33b00d73cb7652b5cedcb607b44df844086d73c9"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/top-healthcare-news-elective-surgeries",
+          "uuid": "2e721bc4efc3dbb14dda4228b807fb786037484f"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/top-healthcare-news-cms-regulatory-changes",
+          "uuid": "a9880dc6cc46ff6022da42ca517e69964fc2b14f"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/effective-revenue-cycle-strategies-for-practice-management-post-pandemic",
+          "uuid": "4df0514d1c44fe556f0fb692fe1487107d1d014f"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/with-hospitals-empty-of-traditional-patients-what-happens-when-we-get-back-normal",
+          "uuid": "413e1df8da9d567237c22d710694e26e8a007ba1"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/why-b2b-should-take-b2c-cx-lessons-or-why-b2b-customers-are-people-too",
+          "uuid": "504eb057a467a2fcab929da70bc7a219c0374085"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/provisional-credentialing",
+          "uuid": "bd3c48bcc77a58c1dee94e42768b9797fe33c19a"
+        },
+        {
+          "url": "https://www.trizettoprovider.com/decoding-the-hidden-costs-of-credentialing",
+          "uuid": "1d4a378cf989e2160cb47c403e6a01edee647d64"
+        }
+      ]
+    },
+    {
+      "name": "\"Homepage\"",
       "cluster": 4,
       "pages": [
         {
           "url": "https://www.trizettoprovider.com/",
           "uuid": "dd6dfba198b60d6dcacddb8c1569a0e5cb6b649d"
+        }
+      ]
+    },
+    {
+      "name": "'Team Profiles Page'",
+      "cluster": 5,
+      "pages": [
+        {
+          "url": "https://www.trizettoprovider.com/who-we-are/leadership",
+          "uuid": "2751c11b708fc09ec0315e06c98777613a649d83"
         }
       ]
     }
