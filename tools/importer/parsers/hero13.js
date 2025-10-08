@@ -1,32 +1,42 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // 1. Find the background image (first <img> child)
+  // === Hero (hero13) Parser ===
+  // 1. Extract background image (must reference existing element)
   const bgImg = element.querySelector(':scope > img');
 
-  // 2. Find the main column containing text
-  const col = element.querySelector('.vc_column_container');
-  let textBlocks = [];
-  if (col) {
-    // Find all .wpb_text_column blocks in order
-    const wrappers = col.querySelectorAll('.wpb_text_column');
-    wrappers.forEach(wrap => {
-      // Only reference the wrapper div (not clone)
-      textBlocks.push(wrap);
+  // 2. Extract main text content (quote and attribution)
+  // Find the main column
+  const column = element.querySelector('.wpb_column');
+  let textNodes = [];
+  if (column) {
+    // Find all .wpb_text_column wrappers in order
+    const textColumns = column.querySelectorAll('.wpb_text_column');
+    textColumns.forEach(tc => {
+      const inner = tc.querySelector('.wpb_wrapper');
+      if (inner) {
+        // Push all children (usually <p>)
+        Array.from(inner.children).forEach(child => {
+          textNodes.push(child);
+        });
+      }
     });
   }
 
   // 3. Compose table rows
-  const headerRow = ['Hero (hero13)']; // Must match target block name exactly
-  const imageRow = [bgImg ? bgImg : '']; // Reference image element if present
-  const contentRow = [textBlocks.length ? textBlocks : '']; // Reference all text blocks as array
+  // Header row: must match block name exactly
+  const headerRow = ['Hero (hero13)'];
+  // Second row: background image (reference existing element, not URL)
+  const imageRow = [bgImg ? bgImg : ''];
+  // Third row: text content (all text nodes, preserve structure)
+  const contentRow = [textNodes.length ? textNodes : ''];
 
-  // 4. Create table
+  // 4. Build table
   const table = WebImporter.DOMUtils.createTable([
     headerRow,
     imageRow,
     contentRow
   ], document);
 
-  // 5. Replace element
+  // 5. Replace original element
   element.replaceWith(table);
 }

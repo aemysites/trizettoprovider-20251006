@@ -1,59 +1,35 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Helper to extract card content from a column
-  function extractCardContent(col) {
-    // Find image
-    const img = col.querySelector('img');
-    // Find the top text block (title/link)
-    const textBlocks = col.querySelectorAll('.mpc-textblock');
-    let titleBlock = null;
-    let descBlock = null;
-    if (textBlocks.length > 0) {
-      titleBlock = textBlocks[0];
-      if (textBlocks.length > 1) {
-        descBlock = textBlocks[1];
-      }
-    }
-    // Compose the title cell: prefer the link/title block
-    let titleCell = null;
-    if (titleBlock) {
-      // Use the entire block (contains link and heading styling)
-      titleCell = titleBlock;
-    }
-    // Compose the description cell
-    let descCell = null;
-    if (descBlock) {
-      descCell = descBlock;
-    }
-    // Compose the text cell: stack title and description
+  // Cards (cards1) block: 2 columns, 1 row per card, each card: [image, text]
+  const headerRow = ['Cards (cards1)'];
+  const rows = [headerRow];
+
+  // Find all columns that could be cards (skip empty columns)
+  // Card columns have class 'vc_col-sm-4'
+  const cardColumns = Array.from(element.querySelectorAll('.wpb_column.vc_col-sm-4'));
+
+  cardColumns.forEach((col) => {
+    const wrapper = col.querySelector('.wpb_wrapper');
+    if (!wrapper) return;
+
+    // Find the image (first <img> inside wrapper)
+    const img = wrapper.querySelector('img');
+
+    // Find all textblocks (to get all text content, not just specific classes)
+    const textBlocks = wrapper.querySelectorAll('.mpc-textblock');
     const textCell = document.createElement('div');
-    if (titleCell) textCell.appendChild(titleCell);
-    if (descCell) textCell.appendChild(descCell);
-    // If no description, just use title
-    if (!titleCell && !descCell) {
-      textCell.textContent = '';
+    textBlocks.forEach(tb => {
+      // Append all child nodes (preserve structure and links)
+      Array.from(tb.childNodes).forEach(n => textCell.appendChild(n.cloneNode(true)));
+    });
+
+    // Add the card row: [image, text]
+    if (img && textCell.textContent.trim()) {
+      rows.push([img, textCell]);
     }
-    // Return [image, textCell]
-    return [img, textCell];
-  }
-
-  // Get all columns that may contain cards
-  const columns = Array.from(element.querySelectorAll(':scope > .wpb_column'));
-  // Only keep columns that have an image (card columns)
-  const cardColumns = columns.filter(col => col.querySelector('img'));
-
-  // Build the table rows
-  const rows = [];
-  // Header row
-  rows.push(['Cards (cards1)']);
-  // Card rows
-  cardColumns.forEach(col => {
-    const [img, textCell] = extractCardContent(col);
-    rows.push([img, textCell]);
   });
 
-  // Create the table
-  const table = WebImporter.DOMUtils.createTable(rows, document);
-  // Replace the original element
-  element.replaceWith(table);
+  // Create the table block
+  const block = WebImporter.DOMUtils.createTable(rows, document);
+  element.replaceWith(block);
 }
