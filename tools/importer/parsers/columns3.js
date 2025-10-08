@@ -1,45 +1,41 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Helper to get direct children with a class
-  function getDirectChildrenByClass(parent, className) {
-    return Array.from(parent.children).filter((el) => el.classList.contains(className));
-  }
+  // Find all direct child columns (cards)
+  const columns = Array.from(element.querySelectorAll(':scope > .wpb_column'));
+  if (!columns.length) return;
 
-  // Get all direct column containers
-  const columns = getDirectChildrenByClass(element, 'wpb_column');
+  // Only keep columns that have at least one text block (to avoid icon-only columns)
+  const contentColumns = columns.filter(col => col.querySelector('.mpc-textblock'));
 
-  // Each column pair: [iconCol, textCol]
-  const cells = [];
-  for (let i = 0; i < columns.length; i += 2) {
-    const iconCol = columns[i];
-    const textCol = columns[i + 1];
-    if (!iconCol || !textCol) continue;
-
-    // Get the icon (the .mpc-icon inside iconCol)
-    let icon = iconCol.querySelector('.mpc-icon');
-    // Get all text blocks (all .mpc-textblock inside textCol)
-    const textBlocks = Array.from(textCol.querySelectorAll('.mpc-textblock'));
-
-    // Instead of pushing elements, extract their text content for flexibility
-    const cellParts = [];
-    if (icon) {
-      // Optionally, you could extract SVG or icon HTML, but for text focus, skip or add a marker
-      // cellParts.push('[icon]'); // If you want a marker
+  // Group columns into rows of 2 columns each (each cell = icon+heading+desc)
+  const rows = [];
+  for (let i = 0; i < contentColumns.length; i += 2) {
+    const row = [];
+    for (let j = 0; j < 2; j++) {
+      const col = contentColumns[i + j];
+      if (col) {
+        // Compose card: icon from previous sibling column (if present) + all text blocks
+        const cellContent = [];
+        // Try to find the icon in the previous column (icon columns are always before content columns)
+        const iconCol = columns[columns.indexOf(col) - 1];
+        const icon = iconCol && iconCol.querySelector('.mpc-icon');
+        if (icon) cellContent.push(icon);
+        // Get all text blocks (heading/link and description)
+        const textBlocks = Array.from(col.querySelectorAll('.mpc-textblock'));
+        textBlocks.forEach(tb => cellContent.push(tb));
+        row.push(cellContent);
+      } else {
+        row.push(''); // empty cell if missing
+      }
     }
-    textBlocks.forEach(tb => {
-      // Get all text content from the block
-      cellParts.push(tb.textContent.trim());
-    });
-    // Join all text parts for this cell
-    cells.push([cellParts.join(' ')]);
+    rows.push(row);
   }
 
+  // Build table: header row, then content rows
   const headerRow = ['Columns block (columns3)'];
-  if (cells.length > 0) {
-    const table = WebImporter.DOMUtils.createTable([
-      headerRow,
-      cells.map(cellArr => cellArr[0]), // Flatten to single cell per column
-    ], document);
-    element.replaceWith(table);
-  }
+  const tableCells = [headerRow, ...rows];
+
+  // Create and replace
+  const blockTable = WebImporter.DOMUtils.createTable(tableCells, document);
+  element.replaceWith(blockTable);
 }

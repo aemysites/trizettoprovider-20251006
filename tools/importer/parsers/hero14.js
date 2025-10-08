@@ -1,38 +1,36 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // 1. Find the direct image child for the background image
-  const img = element.querySelector(':scope > img');
+  // 1. Header row: must match block name exactly
+  const headerRow = ['Hero (hero14)'];
 
-  // 2. Find the deepest .wpb_wrapper containing h1/h2/h3/p for text content
-  let contentCell = '';
-  const wrappers = element.querySelectorAll('.wpb_wrapper');
-  for (const wrapper of wrappers) {
-    // Only grab the actual heading/subheading/cta, not wrappers or empty space
-    const heading = wrapper.querySelector('h1, h2, h3, p');
-    if (heading) {
-      // Collect all heading/subheading/cta elements in this wrapper
-      const fragment = document.createDocumentFragment();
-      wrapper.querySelectorAll('h1, h2, h3, p, a').forEach((el) => {
-        fragment.appendChild(el.cloneNode(true));
-      });
-      contentCell = fragment;
-      break;
-    }
+  // 2. Background image row: reference the actual <img> element, not URL or alt
+  const img = element.querySelector('img');
+  const bgImgCell = img ? [img] : [''];
+
+  // 3. Content row: headline, subheading, CTA (if any)
+  // Find the main heading (h1, h2, h3) inside the block
+  let contentCell = [];
+  const heading = element.querySelector('h1, h2, h3');
+  if (heading) {
+    contentCell.push(heading);
+  }
+  // No subheading or CTA in this example, but parser is robust for future cases
+
+  // If no heading, fallback to any text content
+  if (contentCell.length === 0) {
+    const text = element.textContent.trim();
+    if (text) contentCell.push(document.createTextNode(text));
   }
 
-  // 3. Compose table rows
-  const headerRow = ['Hero (hero14)']; // Must match target block name
-  const imageRow = [img ? img : '']; // Reference image element if present
-  const contentRow = [contentCell]; // Only relevant content
-
-  // 4. Build table
-  const cells = [
+  // Compose table rows
+  const rows = [
     headerRow,
-    imageRow,
-    contentRow,
+    [bgImgCell],
+    [contentCell]
   ];
-  const table = WebImporter.DOMUtils.createTable(cells, document);
 
-  // 5. Replace original element
+  // Create the table using WebImporter.DOMUtils.createTable
+  const table = WebImporter.DOMUtils.createTable(rows, document);
+  // Replace the original element with the table
   element.replaceWith(table);
 }
